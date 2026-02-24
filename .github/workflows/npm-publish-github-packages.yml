@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: tenki-standard-autoscale
+    runs-on: tenki-standard-medium-4c-8g
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,7 +24,7 @@ jobs:
 
   publish-gpr:
     needs: build
-    runs-on: tenki-standard-autoscale
+    runs-on: tenki-standard-medium-4c-8g
     permissions:
       contents: read
       packages: write
