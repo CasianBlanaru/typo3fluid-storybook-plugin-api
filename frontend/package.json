@@ -1,0 +1,10 @@
+{
+  "name": "typo3fluid-storybook-plugin-api-frontend",
+  "version": "1.0.0",
+  "description": "Frontend utilities for TYPO3 Fluid Storybook API",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo \"No build step defined\"",
+    "test": "echo \"No tests defined\" && exit 0"
+  }
+}
