@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-medium-4c-8g
     permissions:
       contents: read
 
